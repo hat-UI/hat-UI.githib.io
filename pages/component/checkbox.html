@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CheckBox多选项</title>
+    <meta name="description" content="hatUI,hat-ui,vue2,mobile,libray,组件库">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/hat.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.ab70857f.css" as="style"><link rel="preload" href="/assets/js/app.7d1036b1.js" as="script"><link rel="preload" href="/assets/js/2.8d5b5978.js" as="script"><link rel="preload" href="/assets/js/11.aa4329dd.js" as="script"><link rel="prefetch" href="/assets/js/10.1e30a662.js"><link rel="prefetch" href="/assets/js/12.dcd0f621.js"><link rel="prefetch" href="/assets/js/13.237f51a9.js"><link rel="prefetch" href="/assets/js/14.8938072f.js"><link rel="prefetch" href="/assets/js/15.fda5a836.js"><link rel="prefetch" href="/assets/js/16.6ff7ea90.js"><link rel="prefetch" href="/assets/js/17.a0baa936.js"><link rel="prefetch" href="/assets/js/18.1c79d272.js"><link rel="prefetch" href="/assets/js/19.36db4127.js"><link rel="prefetch" href="/assets/js/20.67f897ea.js"><link rel="prefetch" href="/assets/js/21.b609bc68.js"><link rel="prefetch" href="/assets/js/22.1608811b.js"><link rel="prefetch" href="/assets/js/23.bdefdebb.js"><link rel="prefetch" href="/assets/js/24.bd9ffff2.js"><link rel="prefetch" href="/assets/js/25.72f37d8d.js"><link rel="prefetch" href="/assets/js/26.95ed282f.js"><link rel="prefetch" href="/assets/js/27.09a497c6.js"><link rel="prefetch" href="/assets/js/28.4958ace5.js"><link rel="prefetch" href="/assets/js/29.81cfee6f.js"><link rel="prefetch" href="/assets/js/3.625b0a9b.js"><link rel="prefetch" href="/assets/js/30.4d775fe5.js"><link rel="prefetch" href="/assets/js/31.a82c7489.js"><link rel="prefetch" href="/assets/js/32.2097e875.js"><link rel="prefetch" href="/assets/js/33.d516749c.js"><link rel="prefetch" href="/assets/js/34.db528774.js"><link rel="prefetch" href="/assets/js/4.c56b76e3.js"><link rel="prefetch" href="/assets/js/5.5ce28a27.js"><link rel="prefetch" href="/assets/js/6.a5a9e21d.js"><link rel="prefetch" href="/assets/js/7.db24b170.js"><link rel="prefetch" href="/assets/js/8.aad0ad88.js"><link rel="prefetch" href="/assets/js/9.973f0e3b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ab70857f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/hat.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pages/component/introduce.html" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/pages/component/cell.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/pages/component/theme.html" class="nav-link">
+  主题
+</a></div><div class="nav-item"><a href="/pages/component/demo.html" class="nav-link">
+  示例
+</a></div><div class="nav-item"><a href="https://github.com/hat-UI/hatUI" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pages/component/introduce.html" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/pages/component/cell.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="/pages/component/theme.html" class="nav-link">
+  主题
+</a></div><div class="nav-item"><a href="/pages/component/demo.html" class="nav-link">
+  示例
+</a></div><div class="nav-item"><a href="https://github.com/hat-UI/hatUI" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>指南</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>组件</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>布局组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/component/flex.html" class="sidebar-link">Flex 布局</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>操作反馈</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/component/actionsheet.html" class="sidebar-link">ActionSheet 动作面板</a></li><li><a href="/pages/component/datepicker.html" class="sidebar-link">Datepicker 日历</a></li><li><a href="/pages/component/notify.html" class="sidebar-link">Notify 提示</a></li><li><a href="/pages/component/toast.html" class="sidebar-link">Toast 吐司</a></li><li><a href="/pages/component/loading.html" class="sidebar-link">Loading 加载</a></li><li><a href="/pages/component/dialog.html" class="sidebar-link">Dialog 对话框</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>基础组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/component/cell.html" class="sidebar-link">Cell 列表项</a></li><li><a href="/pages/component/icon.html" class="sidebar-link">Icon 图标</a></li><li><a href="/pages/component/button.html" class="sidebar-link">Button 按钮</a></li><li><a href="/pages/component/popup.html" class="sidebar-link">PopUp 弹出层</a></li><li><a href="/pages/component/badge.html" class="sidebar-link">Badage 徽标</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>导航组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/component/step.html" class="sidebar-link">Step 步骤条</a></li><li><a href="/pages/component/tab.html" class="sidebar-link">Tab 选项卡</a></li><li><a href="/pages/component/tabBar.html" class="sidebar-link">TabBar 标签栏</a></li><li><a href="/pages/component/navBar.html" class="sidebar-link">NavBar 导航栏</a></li><li><a href="/pages/component/noticeBar.html" class="sidebar-link">NoeticeBar 公告栏</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>数据录入</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/component/radio.html" class="sidebar-link">Radio 单选项</a></li><li><a href="/pages/component/checkbox.html" class="active sidebar-link">Checkbox 多选项</a></li><li><a href="/pages/component/switch.html" class="sidebar-link">Swicth 切换开关</a></li><li><a href="/pages/component/upload.html" class="sidebar-link">Upload 上传</a></li><li><a href="/pages/component/field.html" class="sidebar-link">Field 文本框</a></li><li><a href="/pages/component/searchbar.html" class="sidebar-link">SearchBar 搜索框</a></li></ul></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="checkbox多选项"><a href="#checkbox多选项" class="header-anchor">#</a> CheckBox多选项</h3> <h3 id="引入"><a href="#引入" class="header-anchor">#</a> 引入</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> CheckBox <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'hatUI'</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>CheckBox<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="代码演示"><a href="#代码演示" class="header-anchor">#</a> 代码演示</h3> <ul><li>单选项支持圆形、方形</li></ul> <p>单选项支持 <code>round</code>、<code>default</code>两种种类型，默认为<code>default</code></p> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;modelValue&quot;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;a&quot;</span><span class="token operator">&gt;</span>男<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;b&quot;</span><span class="token operator">&gt;</span>女<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+      <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+          modelValue<span class="token operator">:</span> <span class="token string">'a'</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><ul><li>圆形单选项</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;modelValue&quot;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;a&quot;</span> round<span class="token operator">&gt;</span>男<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;b&quot;</span> round<span class="token operator">&gt;</span>女<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+      <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+          modelValue<span class="token operator">:</span> <span class="token string">'a'</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+
+</code></pre></div><ul><li>单选项目禁止</li></ul> <p>设置单选项目不可选<code>disabled</code>值</p> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;modelValue&quot;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;a&quot;</span> round disabled<span class="token operator">&gt;</span>男<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox label<span class="token operator">=</span><span class="token string">&quot;b&quot;</span> round<span class="token operator">&gt;</span>女<span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">-</span>group<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+      <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+          modelValue<span class="token operator">:</span> <span class="token string">'a'</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><ul><li>checkbox支持单个使用</li></ul> <p><code>checkbox</code>在单个使用，传入布尔值，决定改多选项是否被选中，在<code>checkbox-group</code>中传递数组。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;button-wrap&quot;</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;checked&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>hat<span class="token operator">-</span>checkbox v<span class="token operator">-</span>model<span class="token operator">=</span><span class="token string">&quot;checked1&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>hat<span class="token operator">-</span>checkbox<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      checked<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      checked1<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="checkbox-group"><a href="#checkbox-group" class="header-anchor">#</a> checkbox-group</h3> <table><thead><tr><th style="text-align:left;">字段</th> <th style="text-align:center;">说明</th> <th style="text-align:center;">类型</th> <th style="text-align:center;">默认值</th></tr></thead> <tbody><tr><td style="text-align:left;">model</td> <td style="text-align:center;">选择的多选项数组</td> <td style="text-align:center;">Array</td> <td style="text-align:center;">[]</td></tr></tbody></table> <h3 id="checkbox"><a href="#checkbox" class="header-anchor">#</a> checkbox</h3> <table><thead><tr><th style="text-align:left;">字段</th> <th style="text-align:center;">说明</th> <th style="text-align:center;">类型</th> <th style="text-align:center;">默认值</th></tr></thead> <tbody><tr><td style="text-align:left;">label</td> <td style="text-align:center;">设置显示checkbox说明文字</td> <td style="text-align:center;">String</td> <td style="text-align:center;">''</td></tr> <tr><td style="text-align:left;">round</td> <td style="text-align:center;">圆形checkbox</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">false</td></tr> <tr><td style="text-align:left;">disabled</td> <td style="text-align:center;">checkbox是否可选</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">false</td></tr> <tr><td style="text-align:left;">model</td> <td style="text-align:center;">checkbox可选，在checkbox单个使用时使用</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">false</td></tr></tbody></table> <!----></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pages/component/radio.html" class="prev">
+        Radio 单选项
+      </a></span> <span class="next"><a href="/pages/component/switch.html">
+        Swicth 切换开关
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7d1036b1.js" defer></script><script src="/assets/js/2.8d5b5978.js" defer></script><script src="/assets/js/11.aa4329dd.js" defer></script>
+  </body>
+</html>
